@@ -1,0 +1,77 @@
+.bg-container {
+  background-color: #131313;
+  width: 100%;
+}
+
+.search-bar-container {
+  display: flex;
+  justify-content: center;
+}
+
+.search-icon {
+  height: 24px;
+  width: 24px;
+  margin-right: 24px;
+}
+
+.search-btn {
+  background-color: transparent;
+  border: none;
+  color: #ffffff;
+}
+
+.mobile-header-navbar {
+  background-color: rgba(19, 19, 19, 0.2);
+  height: 75px;
+  width: 100%;
+  padding: 24px 32px 24px 32px;
+  display: flex;
+  flex-direction: column;
+
+  color: #ffffff;
+
+  position: fixed;
+  z-index: 9999;
+}
+
+.mobile-header-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mobile-header-options-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 32px;
+}
+
+.hamburger-btn {
+  background-color: transparent;
+  border: none;
+}
+
+.close-icon {
+  height: 20px;
+  width: 20px;
+}
+
+.close-btn {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  color: #ffffff;
+  border: none;
+}
+
+.mobile-option {
+  text-decoration: none;
+  color: #ffffff;
+
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+}

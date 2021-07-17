@@ -1,0 +1,55 @@
+.home-poster-container {
+  display: flex;
+  align-items: flex-end;
+  min-height: 427px;
+  width: auto;
+  background-image: url('/home/workspace/reactjs/coding-practices/moviesApp/src/components/Banner/asserts/banner.png');
+  background-size: cover;
+}
+
+.home-poster-sub-container {
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom: 45px;
+  background-image: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(24, 24, 24, 0.546875) 38.26%,
+    #131313 92.82%,
+    #131313 98.68%,
+    #131313 108.61%
+  );
+}
+
+.banner-heading {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+.banner-description {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+
+  margin: 0;
+  color: #ffffff;
+}
+
+.play-btn {
+  padding: 12px 24px;
+  border: none;
+  background-color: #ffffff;
+  border-radius: 4px;
+
+  color: #171f46;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+
+  margin-top: 24px;
+}

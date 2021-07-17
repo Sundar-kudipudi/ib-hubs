@@ -1,0 +1,28 @@
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-social-icons-container {
+  display: flex;
+  justify-content: space-between;
+  width: 145px;
+}
+
+.footer-icons {
+  color: #ffffff;
+}
+
+.footer-heading {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+
+  color: #ffffff;
+
+  margin-top: 16px;
+  margin-bottom: 64px;
+}

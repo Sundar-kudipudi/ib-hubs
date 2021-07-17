@@ -1,0 +1,54 @@
+.popular-container {
+  background-color: #131313;
+}
+
+.popular-movies-list-container {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  padding: 24px;
+  margin: 0;
+}
+
+.popular-movie-list {
+  max-height: 100px;
+  max-width: 90px;
+  margin-top: 8px;
+}
+
+.popular-movie-btn {
+  background-color: transparent;
+  border: none;
+}
+
+.popular-image {
+  height: 100px;
+  width: 90px;
+  border-radius: 4px;
+}
+
+.page-count-container {
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 37px;
+  margin-bottom: 48px;
+}
+
+.arrow-btn {
+  border: none;
+  background-color: transparent;
+}
+
+.page-count {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  margin-left: 12px;
+  margin-right: 12px;
+}

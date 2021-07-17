@@ -1,0 +1,172 @@
+.background-container {
+  background-color: #131313;
+
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+
+  padding: 32px;
+}
+
+@media screen and (min-width: 576px) {
+  .background-container {
+    justify-content: center;
+    align-items: center;
+
+    background-image: url('/home/workspace/reactjs/coding-practices/moviesApp/src/components/Login/assets/netfilx.jpg');
+    background-size: cover;
+  }
+}
+
+.movie {
+  height: 27px;
+  width: 100px;
+}
+
+@media screen and (min-width: 576px) {
+  .movie {
+    display: none;
+  }
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  flex-grow: 1;
+}
+
+@media screen and (min-width: 576px) {
+  .login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 456px;
+    height: 440px;
+
+    background-color: rgba(12, 11, 16, 0.8);
+
+    padding: 48px;
+    flex-grow: 0;
+
+    border-radius: 8px;
+  }
+}
+
+.sign-in-heading {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  margin: 0;
+
+  color: #ffffff;
+}
+
+@media screen and (min-width: 576px) {
+  .sign-in-heading {
+    font-family: 'HK Grotesk';
+    font-weight: 600;
+    line-height: 40px;
+
+    color: #ffffff;
+  }
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 576px) {
+  .login-form {
+    align-items: center;
+    width: 100%;
+  }
+}
+
+.login-label {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+
+  margin-top: 16px;
+  margin-bottom: 8px;
+
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+@media screen and (min-width: 576px) {
+  .login-label {
+    align-self: flex-start;
+  }
+}
+
+.login-inputs {
+  height: 40px;
+  padding-left: 16px;
+
+  background-color: #333333;
+
+  border-radius: 2px;
+  border: 0;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+
+  color: rgba(126, 133, 142, 0.6);
+}
+
+@media screen and (min-width: 576px) {
+  .login-inputs {
+    width: 100%;
+    background-color: rgba(51, 51, 51, 1);
+    opacity: 1;
+  }
+}
+
+.error-message {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: #fb923c;
+}
+
+@media screen and (min-width: 576px) {
+  .error-message {
+    align-self: flex-start;
+  }
+}
+
+.sign-in-button {
+  text-align: center;
+  padding: 8px 20px;
+
+  background: #e50914;
+  border-radius: 4px;
+  border: none;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 32px;
+  line-height: 24px;
+
+  color: #ffffff;
+}

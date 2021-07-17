@@ -1,0 +1,86 @@
+.home-heading {
+  display: flex;
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  align-self: flex-start;
+
+  color: #ffffff;
+}
+
+.App {
+  min-height: 100vh;
+  background: skyblue;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* .react-slick-item {
+  height: 90px;
+  width: 64px;
+} */
+
+.slick-app-container-trending {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: -13px;
+  margin-bottom: 24px;
+}
+
+.poster {
+  border-radius: 8px;
+  margin: 0px 10px;
+  height: 64px;
+  width: 90px;
+}
+
+@media (min-width: 768px) {
+  .poster {
+    margin: 0px 15px;
+    height: 200px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .poster {
+    margin: 0px 30px;
+    height: 250px;
+  }
+}
